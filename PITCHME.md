@@ -5,17 +5,15 @@
 ---
 
 @title[Outline]
-Outline
+#### Outline
 <br>
-- Introduction
-- Groovy |
-- Kotlin |
-- Scala  |
-- The JVM rocks! |
+- Introduction |
 
 ---
 
 @title[Introduction]
-![Image-Absolute](assets/logo-graylog.png)
+![Image-Absolute](assets/images/logo-graylog.png)
 <br>
-<span class="aside">Just like this one...</span>
+##### is a centralized logging system
+##### storing, alerting, reporting, exploration
+<span class="aside">and more...</span>

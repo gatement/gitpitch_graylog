@@ -7,7 +7,7 @@
 @title[Outline]
 Outline
 <br>
-- Java
+- Introduction
 - Groovy |
 - Kotlin |
 - Scala  |
@@ -16,5 +16,6 @@ Outline
 ---
 
 @title[Introduction]
+![Image-Absolute](assets/logo-graylog.png)
 <br>
 <span class="aside">Just like this one...</span>

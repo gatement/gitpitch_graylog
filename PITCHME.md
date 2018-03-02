@@ -12,8 +12,9 @@
 ---
 
 @title[Introduction]
-![Image-Absolute](assets/images/logo-graylog.png)
-<br>
-##### is a centralized logging system
-##### storing, alerting, reporting, exploration
+##### Graylog is a centralized logging system
+- Storing
+- Exploration
+- Alerting
+- Reporting
 <span class="aside">and more...</span>

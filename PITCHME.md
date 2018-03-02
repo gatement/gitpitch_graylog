@@ -1,2 +1,2 @@
 @title[Introduction]
-## Graylog µÄ
+## µÄ

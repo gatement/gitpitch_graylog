@@ -14,3 +14,16 @@
 .gold {
   color: #e49436;
 }
+
+span.byline, span.aside {
+  color: #bbb;
+}
+
+span.byline {
+  font-size: 80%;
+}
+
+span.aside {
+  font-size: 0.7em;
+  font-style: italic;
+}

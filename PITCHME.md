@@ -1,2 +1,2 @@
 @title[Introduction]
-## <span class="gold">Graylog</span>
+## <span class="gold">Graylog</span> µÄ

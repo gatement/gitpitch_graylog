@@ -18,6 +18,7 @@
 - Exploration
 - Alerting
 - Reporting
+<br/>
 <span class="aside">and more...</span>
 
 ---
@@ -32,10 +33,12 @@
 
 @title[Octocat De Los Muertos]
 <span style="color:gray; font-size:0.7em">Small setup</span>
+<br/>
 ![Image-Absolute](assets/images/architec_small_setup.png)
 
 +++
 
 @title[Octocat De Los Muertos]
 <span style="color:gray; font-size:0.7em">Multi-node setup</span>
+<br/>
 ![Image-Absolute](assets/images/architec_bigger_setup.png)

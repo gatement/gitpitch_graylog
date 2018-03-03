@@ -26,9 +26,9 @@
 
 @title[Architecture]
 
-- <span class="gold">MongoDB</span> is storing meta information and configuration data
-- <span class="gold">Elasticsearch</span> is responsible for log data storing
-- <span class="gold">Graylog</span> is the input/output engine and Web UI
+- <span class="gold">MongoDB</span>: storing meta information and configuration data
+- <span class="gold">Elasticsearch</span>: responsible for log data storing
+- <span class="gold">Graylog-Server</span>: the input/output engine and Web UI, on top of MongoDB and Elasticsearch.
 
 +++
 

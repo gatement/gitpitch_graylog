@@ -85,10 +85,8 @@
 #### <span class="gold">UDP</span> is not reliable, but it is <span class="gold">non-blocked</span>.
 <span class="aside">We will put the application and the graylog on the same LAN</span>
 
----
++++
 
-@title[Data Ingesting2]
-#### Data Ingesting Code
 <p><span class="menu-title slide-title">log4j2-spring.xml</span></p>
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -111,12 +109,11 @@
 	</Loggers>
 </Configuration>
 ```
-@[7-11](GELF Appender.)
-@[13-18](GELF Logger.)
+@[7-11](GELF Appender)
+@[16-16](GELF Logger)
 
----
++++
 
-@title[Data Ingesting3]
 <p><span class="menu-title slide-title">Java code</span></p>
 ```java
 @RestController
@@ -132,4 +129,11 @@ public class HelloController {
 }
 
 ```
-@[7-7](log.)
+
+@[7-7](log)
+
++++ 
+
+<span style="color:gray; font-size:0.7em">Log in Graylog</span>
+<br/>
+![Image-Absolute](assets/images/log-hello.png)

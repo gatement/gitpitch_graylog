@@ -50,8 +50,8 @@
 
 ---
 
-@title[Data Ingesting]
-#### Data Ingesting
+@title[Data Ingesting1]
+#### Data Ingesting Methods
 - Formats: Raw/Plaintext, Syslog, CEF, GELF, ...
 - Transport methods: TCP, UDP, Kafka, AMQP, ...
 
@@ -82,8 +82,34 @@
 +++
 
 #### <span class="gold">GELF</span> + <span class="gold">UDP</span>
-#### <span class="gold">UDP</span> is not reliable, but it is non-blocked.
+#### <span class="gold">UDP</span> is not reliable, but it is <span class="gold">non-blocked</span>.
 <span class="aside">We will put the application and the graylog on the same LAN</span>
 
 ---
 
+@title[Data Ingesting2]
+#### Data Ingesting Code
+<p><span class="menu-title slide-title">log4j2-spring</span></p>
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn" name="MyApp" packages="">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT" ignoreExceptions="false">
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] (%F:%L)  - %m%n" />
+		</Console>
+		<GELF name="gelfAppender" server="www.johnsonlau.net" port="12201"
+			hostName="appserver01.example.com" protocol="UDP">
+			<KeyValuePair key="environment" value="DEV" />
+			<KeyValuePair key="application" value="demo" />
+		</GELF>
+	</Appenders>
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="gelfAppender" />
+		</Root>
+	</Loggers>
+</Configuration>
+```
+@[7-11](GELF Appender.)
+@[13-18](GELF Logger.)

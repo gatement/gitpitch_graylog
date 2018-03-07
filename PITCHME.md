@@ -144,27 +144,26 @@ public class HelloController {
 
 ---
 
-@title[Input]
-## <span class="gold">Inputs</span>
-##### Define the input endpoints
+@title[Inputs]
+##### <span class="gold">Inputs</span>
 ![Image-Absolute](assets/images/inputs.png)
+<span class="aside">Define the input endpoints</span>
 
 +++ 
 
 ##### Demo
-![Image-Absolute](assets/images/inputs_screenshot).png)
+![Image-Absolute](assets/images/inputs_screenshot.png)
 
 ---
 
 @title[Stream]
-## <span class="gold">Stream</span>
-##### Filter messages into different channels
+## <span class="gold">Streams</span>
 ![Image-Absolute](assets/images/streams.png)
+<span class="aside">Define the input endpoints</span>
 
 +++ 
 
 ##### Demo
 ![Image-Absolute](assets/images/streams_screenshot).png)
-
 
 

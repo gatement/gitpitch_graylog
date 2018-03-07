@@ -104,7 +104,7 @@
 
 #### <span class="gold">GELF</span> + <span class="gold">UDP</span>
 #### <span class="gold">UDP</span> is not reliable, but it is <span class="gold">non-blocked</span>.
-<span class="aside">We will put the application and the graylog on the same LAN</span>
+<span class="aside">We will put the application and the Graylog on the same LAN</span>
 
 +++ 
 

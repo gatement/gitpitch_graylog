@@ -77,12 +77,13 @@
   "_some_info": "foo",
   "_some_env_var": "bar"
 }
-```javascript
+```
 
 +++
 
 #### <span class="gold">GELF</span> + <span class="gold">UDP</span>
 #### <span class="gold">UDP</span> is not reliable, but it is non-blocked.
+<span class="aside">We will put the application and the graylog on the same LAN</span>
 
 ---
 

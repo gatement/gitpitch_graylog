@@ -9,27 +9,35 @@
 - Introduction |
 - Architecture |
 - Data Ingesting |
-- Input Definitions|
-- Streams |
-- Dashboards |
 - Streams |
 - Search |
+- Dashboards |
 - Alerts |
 
 ---
 
-@title[Introduction1]
+@title[Introduction1 - App Data Types]
 #### Application Data Types
 ![Image-Absolute](assets/images/application_data_types.png)
 
 ---
 
-@title[Introduction2]
+@title[Introduction - User Pain Point]
+#### User pain point
+- Decentralized
+- Hard to Explore
+- Hard to Analyse
+- Hard to Manage
+
+---
+
+@title[Introduction3]
 #### Graylog is a <span class="gold">centralized logging system</span>
 - Storing
 - Exploration
 - Alerting
 - Reporting
+- API
 <br/>
 <span class="aside">and more...</span>
 
@@ -59,17 +67,10 @@
 
 @title[Data Ingesting]
 #### Data Ingesting
-#### <span class="gold">Inputs</span>
 ![Image-Absolute](assets/images/inputs.png)
 <span class="aside">Define the input endpoints</span>
 
 +++ 
-
-<span style="color:gray; font-size:0.7em">Graylog inputs</span>
-![Image-Absolute](assets/images/inputs_screenshot.png)
-
-+++ 
-
 
 #### Data Ingesting Methods
 - Formats: Raw/Plaintext, Syslog, CEF, GELF, ...
@@ -104,6 +105,11 @@
 #### <span class="gold">GELF</span> + <span class="gold">UDP</span>
 #### <span class="gold">UDP</span> is not reliable, but it is <span class="gold">non-blocked</span>.
 <span class="aside">We will put the application and the graylog on the same LAN</span>
+
++++ 
+
+<span style="color:gray; font-size:0.7em">Graylog inputs</span>
+![Image-Absolute](assets/images/inputs_screenshot.png)
 
 +++
 
@@ -206,5 +212,4 @@ public class HelloController {
 
 ##### Demo
 ![Image-Absolute](assets/images/streams_screenshot.png)
-
 

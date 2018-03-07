@@ -261,7 +261,7 @@ http_response_code:(>=400 AND <500)
 
 @title[Dashboards]
 #### Monitoring
-<span class="gold">System</span> monitoring vs <span class="gold">Business</span> monitoring
+<span class="gold">System monitoring</span> vs <span class="gold">Business monitoring</span>
 
 +++
 

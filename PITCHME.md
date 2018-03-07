@@ -201,6 +201,6 @@ public class HelloController {
 +++ 
 
 ##### Demo
-![Image-Absolute](assets/images/streams_screenshot).png)
+![Image-Absolute](assets/images/streams_screenshot.png)
 
 

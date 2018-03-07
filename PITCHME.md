@@ -13,17 +13,18 @@
 - Search |
 - Dashboards |
 - Alerts |
+- Storing Policy |
 
 ---
 
 @title[Introduction1 - App Data Types]
 #### Application Data Types
-![Image-Absolute](assets/images/application_data_types.png)
+![Image-Absolute](assets/images/drawing_app_data_types.png)
 
 ---
 
 @title[Introduction - User Pain Point]
-#### User pain point
+#### User <span class="gold">pain points</span>
 - Decentralized
 - Hard to Explore
 - Hard to Analyse
@@ -45,9 +46,9 @@
 
 @title[Architecture]
 #### Components
-- <span class="gold">MongoDB</span>: storing meta information and configuration data
-- <span class="gold">Elasticsearch</span>: storing log data
-- <span class="gold">Graylog-Server</span>: input/output/processing/Web UI
+- <span class="gold">MongoDB</span><span class="aside">: storing meta information and configuration data</span>
+- <span class="gold">Elasticsearch</span><span class="aside">: storing log data</span>
+- <span class="gold">Graylog-Server</span><span class="aside">: input/output/processing/Web UI</span>
 
 +++
 
@@ -66,15 +67,15 @@
 ---
 
 @title[Data Ingesting]
-#### Data Ingesting
-![Image-Absolute](assets/images/inputs.png)
+#### Data <span class="gold">Ingesting</span>
+![Image-Absolute](assets/images/drawing_inputs.png)
 <span class="aside">Define the input endpoints</span>
-
+</span>
 +++ 
 
-#### Data Ingesting Methods
-- Formats: Raw/Plaintext, Syslog, CEF, GELF, ...
-- Transport methods: TCP, UDP, Kafka, AMQP, ...
+#### Data Ingesting <span class="gold">Methods</span>
+- Message Formats: Raw/Plaintext, Syslog, CEF, GELF, ...
+- Transport Methods: TCP, UDP, Kafka, AMQP, ...
 
 +++
 
@@ -109,7 +110,7 @@
 +++ 
 
 <span style="color:gray; font-size:0.7em">Graylog inputs</span>
-![Image-Absolute](assets/images/inputs_screenshot.png)
+![Image-Absolute](assets/images/screenshot_inputs.png)
 
 +++
 
@@ -146,7 +147,7 @@
     </dependencies>
 ```
 
-@[16-19](Maven dependency)
+@[16-20](Maven dependency)
 
 +++
 
@@ -205,11 +206,11 @@ public class HelloController {
 
 @title[Stream]
 #### <span class="gold">Streams</span>
-![Image-Absolute](assets/images/streams.png)
+![Image-Absolute](assets/images/drawing_streams.png)
 <span class="aside">Define the input endpoints</span>
 
 +++ 
 
 ##### Demo
-![Image-Absolute](assets/images/streams_screenshot.png)
+![Image-Absolute](assets/images/screenshot_streams.png)
 

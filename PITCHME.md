@@ -6,15 +6,20 @@
 
 @title[Outline]
 #### Outline
-<br>
 - Introduction |
 - Architecture |
 - Data Ingesting |
 
 ---
+@title[Introduction1]
+#### Application Data Types
+<br/>
+![Image-Absolute](assets/images/application_data_types.png)
 
-@title[Introduction]
-##### Graylog is a <span class="gold">centralized logging system</span>
+---
+
+@title[Introduction2]
+#### Graylog is a <span class="gold">centralized logging system</span>
 - Storing
 - Exploration
 - Alerting

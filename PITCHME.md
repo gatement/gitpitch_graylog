@@ -74,15 +74,15 @@
 +++ 
 
 #### Data Ingesting <span class="gold">Methods</span>
-- Message Formats: Raw/Plaintext, Syslog, CEF, GELF, ...
-- Transport Methods: TCP, UDP, Kafka, AMQP, ...
+- Message Formats: <span class="aside">Raw/Plaintext, Syslog, CEF, <span class="gold">GELF</span>, ...</span>
+- Transport Methods: <span class="aside">TCP, <span class="gold">UDP</span>, Kafka, AMQP, ...</span>
 
 +++
 
 #### [<span class="gold">GELF</span>](http://docs.graylog.org/en/2.4/pages/gelf.html) (<span class="gold">G</span>raylog <span class="gold">E</span>xtended <span class="gold">L</span>og <span class="gold">F</span>ormat) is a log format.
-- Structured
-- Chunking
-- Compression (GZIP/GLIB)
+- Structured: <span class="aside">easy analyze</span>
+- Chunking: <span class="aside">large size</span>
+- Compression (GZIP/GLIB): <span class="aside">network friendly</span>
 
 +++
 
@@ -213,4 +213,39 @@ public class HelloController {
 
 ##### Demo
 ![Image-Absolute](assets/images/screenshot_streams.png)
+
+---
+
+@title[Search]
+#### <span class="gold">Search</span> [query syntax](http://docs.graylog.org/en/2.4/pages/queries.html)
+-- ssh
+-- ssh login
+-- "ssh login"
+-- type:ssh
+-- type:"ssh login"
+-- type:(ssh login)
+-- (ssh OR login) AND NOT source:example.org
+-- source:*.org
+-- source:exam?le.org
+-- http_response_code:[0 TO 64}
+-- http_response_code:>=400
+-- http_response_code:(>=400 AND <500)
+
++++ 
+
+#### Reports
+- Chart
+- Quick values
+- Statistics
+
++++
+
+##### demo
+![Image-Absolute](assets/images/screenshot_reports.png)
+
+---
+
+@title[Dashboards]
+#### <span class="gold">Dashboards</span>
+
 

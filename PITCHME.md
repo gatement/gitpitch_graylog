@@ -237,19 +237,23 @@ http_response_code:(>=400 AND <500)
 
 +++ 
 
+##### search demo
+
++++ 
+
+##### Reports
+![Image-Absolute](assets/images/screenshot_reports.png)
+
++++
+
 #### Reports
 - Chart
 - Quick values
 - Statistics
 
-+++
-
-##### demo
-![Image-Absolute](assets/images/screenshot_reports.png)
-
 ---
 
 @title[Dashboards]
 #### <span class="gold">Dashboards</span>
-
+![Image-Absolute](assets/images/screenshot_dashboards.png)
 

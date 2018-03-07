@@ -225,6 +225,8 @@ ssh login
 type:ssh
 type:"ssh login"
 type:(ssh login)
+_exists_:type
+NOT _exists_:type
 (ssh OR login) AND NOT source:example.org
 source:*.org
 source:exam?le.org

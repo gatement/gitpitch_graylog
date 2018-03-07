@@ -9,12 +9,15 @@
 - Introduction |
 - Architecture |
 - Data Ingesting |
-- Inputs |
+- Inputs Definition|
 - Streams |
 - Dashboards |
+- Streams |
+- Search |
 - Alerts |
 
 ---
+
 @title[Introduction1]
 #### Application Data Types
 ![Image-Absolute](assets/images/application_data_types.png)
@@ -181,7 +184,7 @@ public class HelloController {
 
 ---
 
-@title[Inputs]
+@title[Inputs Definition]
 #### <span class="gold">Inputs</span>
 ![Image-Absolute](assets/images/inputs.png)
 <span class="aside">Define the input endpoints</span>

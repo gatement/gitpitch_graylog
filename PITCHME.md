@@ -57,7 +57,20 @@
 
 ---
 
-@title[Data Ingesting1]
+@title[Data Ingesting]
+#### Data Ingesting
+#### <span class="gold">Inputs</span>
+![Image-Absolute](assets/images/inputs.png)
+<span class="aside">Define the input endpoints</span>
+
++++ 
+
+<span style="color:gray; font-size:0.7em">Graylog inputs</span>
+![Image-Absolute](assets/images/inputs_screenshot.png)
+
++++ 
+
+
 #### Data Ingesting Methods
 - Formats: Raw/Plaintext, Syslog, CEF, GELF, ...
 - Transport methods: TCP, UDP, Kafka, AMQP, ...
@@ -181,18 +194,6 @@ public class HelloController {
 <span style="color:gray; font-size:0.7em">Log in Graylog</span>
 <br/>
 ![Image-Absolute](assets/images/log-hello.png)
-
----
-
-@title[Inputs Definition]
-#### <span class="gold">Inputs</span>
-![Image-Absolute](assets/images/inputs.png)
-<span class="aside">Define the input endpoints</span>
-
-+++ 
-
-##### Demo
-![Image-Absolute](assets/images/inputs_screenshot.png)
 
 ---
 

@@ -291,14 +291,15 @@ http_response_code:(>=400 AND <500)
 
 @title[Storing Policy]
 #### Storing Policy
-- <span class="aside2">create index when Index Message Count more than xxx documents</span>
-- <span class="aside2">create index when Index Size more than xxx bytes</span>
-- <span class="aside2">create index when Index Time longer than xxx days</span>
+- <span class="aside2">create index when <span class="gold">Index Message Count</span> more than xxx documents</span>
+- <span class="aside2">create index when <span class="gold">Index Size</span> more than xxx bytes</span>
+- <span class="aside2">create index when <span class="gold">Index Time</span> longer than xxx days</span>
 - <span class="aside2">delete/close indices when max number of indices exceed xxx indices</span>
 
 ---
 
 #### the end
-<span class="aside">Thanks for your time</span>
-<span class="aside">Johnson Lau</span>
+<span class="aside">Thanks for your time!</span>
+<br/>
+<span class="aside2">Johnson Lau</span>
 

@@ -47,3 +47,19 @@
 <span style="color:gray; font-size:0.7em">Multi-node setup</span>
 <br/>
 ![Image-Absolute](assets/images/architec_bigger_setup.png)
+
+---
+
+@title[Data Ingesting]
+#### Data Ingesting
+- TCP
+- UDP
+- HTTP
+- Kafka
+- AMQP
+- Syslog
+- ...
+
+---
+
+@title[GELF]

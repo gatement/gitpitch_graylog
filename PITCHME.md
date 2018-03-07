@@ -260,24 +260,45 @@ http_response_code:(>=400 AND <500)
 ---
 
 @title[Dashboards]
-#### <span class="gold">Monitoring</span>
-System monitoring vs Business monitoring
+#### Monitoring
+<span class="gold">System</span> monitoring vs <span class="gold">Business</span> monitoring
 
 +++
 
-##### <span class="gold">Graylog Alerts</span>
-- Conditions: when to trigger
-- Notifications: how to notify
+##### Graylog Alerts
+- <span class="gold">Conditions</span>: when to trigger
+- <span class="gold">Notifications</span>: how to notify
 
 +++
 
-##### <span class="gold">notifications</span>
-- EMAIL
-- HTTP POST (phone call? wechat? AI OPS? ...)
+##### notifications
+- <span class="gold">EMAIL</span>
+- <span class="gold">HTTP POST</span> (phone call? wechat? AI OPS? ...)
+
++++
+
+##### demo
 
 +++
 
 ##### alert <span class="gold">examples</span>
-- <span class="aside">Whenever there is a xxx exception.</span>
-- <span class="aside">Whenever the stream xxx has more than 30000 messages per minute.</span>
-- <span class="aside">When the field milliseconds had a too high average in the last five minutes.</span>
+- <span class="aside2">Whenever there is a xxx exception.</span>
+- <span class="aside2">Whenever the stream xxx has more than 30000 messages per minute.</span>
+- <span class="aside2">When the field milliseconds had a too high average in the last five minutes.</span>
+- <span class="aside2">...</span>
+
+---
+
+@title[Storing Policy]
+#### Storing Policy
+- <span class="aside2">create index when Index Message Count more than xxx documents</span>
+- <span class="aside2">create index when Index Size more than xxx bytes</span>
+- <span class="aside2">create index when Index Time longer than xxx days</span>
+- <span class="aside2">delete/close indices when max number of indices exceed xxx indices</span>
+
+---
+
+#### the end
+<span class="aside">Thanks for your time</span>
+<span class="aside">Johnson Lau</span>
+

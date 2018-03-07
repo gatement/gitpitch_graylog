@@ -217,7 +217,7 @@ public class HelloController {
 ---
 
 @title[Search]
-#### <span class="gold">Search</span> [query syntax](http://docs.graylog.org/en/2.4/pages/queries.html)
+#### Search [<span class="gold">query syntax</span>](http://docs.graylog.org/en/2.4/pages/queries.html)
 ```text
 ssh
 ssh login

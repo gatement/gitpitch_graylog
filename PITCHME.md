@@ -12,7 +12,7 @@
 - Streams |
 - Search |
 - Dashboards |
-- Alerts |
+- Monitoring |
 - Storing Policy |
 
 ---
@@ -257,3 +257,27 @@ http_response_code:(>=400 AND <500)
 #### <span class="gold">Dashboards</span>
 ![Image-Absolute](assets/images/screenshot_dashboards.png)
 
+---
+
+@title[Dashboards]
+#### <span class="gold">Monitoring</span>
+System monitoring vs Business monitoring
+
++++
+
+##### <span class="gold">Graylog Alerts</span>
+- Conditions: when to trigger
+- Notifications: how to notify
+
++++
+
+##### <span class="gold">notifications</span>
+- EMAIL
+- HTTP POST (phone call? wechat? AI OPS? ...)
+
++++
+
+##### alert <span class="gold">examples</span>
+- <span class="aside">Whenever there is a xxx exception.</span>
+- <span class="aside">Whenever the stream xxx has more than 30000 messages per minute.</span>
+- <span class="aside">When the field milliseconds had a too high average in the last five minutes.</span>

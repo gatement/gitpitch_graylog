@@ -9,7 +9,7 @@
 - Introduction |
 - Architecture |
 - Data Ingesting |
-- Inputs Definition|
+- Input Definitions|
 - Streams |
 - Dashboards |
 - Streams |

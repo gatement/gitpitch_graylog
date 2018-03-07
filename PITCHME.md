@@ -9,6 +9,10 @@
 - Introduction |
 - Architecture |
 - Data Ingesting |
+- Inputs |
+- Streams |
+- Dashboards |
+- Alerts |
 
 ---
 @title[Introduction1]
@@ -64,7 +68,7 @@
 
 +++
 
-<p><span class="menu-title slide-title">GELF example</span></p>
+<p><span class="menu-title slide-title">GELF message</span></p>
 ```javascript
 {
   "version": "1.1",
@@ -137,3 +141,30 @@ public class HelloController {
 <span style="color:gray; font-size:0.7em">Log in Graylog</span>
 <br/>
 ![Image-Absolute](assets/images/log-hello.png)
+
+---
+
+@title[Input]
+## <span class="gold">Inputs</span>
+##### Define the input endpoints
+![Image-Absolute](assets/images/inputs.png)
+
++++ 
+
+##### Demo
+![Image-Absolute](assets/images/inputs_screenshot).png)
+
+---
+
+@title[Stream]
+## <span class="gold">Stream</span>
+##### Filter messages into different channels
+![Image-Absolute](assets/images/streams.png)
+
++++ 
+
+##### Demo
+![Image-Absolute](assets/images/streams_screenshot).png)
+
+
+

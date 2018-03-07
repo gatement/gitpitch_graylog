@@ -13,7 +13,6 @@
 ---
 @title[Introduction1]
 #### Application Data Types
-<br/>
 ![Image-Absolute](assets/images/application_data_types.png)
 
 ---
@@ -30,21 +29,21 @@
 ---
 
 @title[Architecture]
-
+#### Components
 - <span class="gold">MongoDB</span>: storing meta information and configuration data
-- <span class="gold">Elasticsearch</span>: responsible for log data storing
-- <span class="gold">Graylog-Server</span>: the input/output engine and Web UI, on top of MongoDB and Elasticsearch.
+- <span class="gold">Elasticsearch</span>: storing log data
+- <span class="gold">Graylog-Server</span>: input/output/processing/Web UI
 
 +++
 
-@title[Octocat De Los Muertos]
+@title[Small Setup]
 <span style="color:gray; font-size:0.7em">Small setup</span>
 <br/>
 ![Image-Absolute](assets/images/architec_small_setup.png)
 
 +++
 
-@title[Octocat De Los Muertos]
+@title[Multi-node Setup]
 <span style="color:gray; font-size:0.7em">Multi-node setup</span>
 <br/>
 ![Image-Absolute](assets/images/architec_bigger_setup.png)

@@ -89,7 +89,7 @@
 
 @title[Data Ingesting2]
 #### Data Ingesting Code
-<p><span class="menu-title slide-title">log4j2-spring</span></p>
+<p><span class="menu-title slide-title">log4j2-spring.xml</span></p>
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="warn" name="MyApp" packages="">
@@ -113,3 +113,23 @@
 ```
 @[7-11](GELF Appender.)
 @[13-18](GELF Logger.)
+
+---
+
+@title[Data Ingesting3]
+<p><span class="menu-title slide-title">Java code</span></p>
+```java
+@RestController
+@Slf4j
+public class HelloController {
+
+	@GetMapping("/hello")
+	public String hello() {
+		log.info("GET /hello");
+		return "hello world, graylog2";
+	}
+
+}
+
+```
+@[7-7](log.)

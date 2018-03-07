@@ -57,7 +57,7 @@
 
 +++
 
-#### Graylog Extended Log Format (<span class="gold">GELF</span>) is a log format.
+#### Graylog Extended Log Format ([<span class="gold">GELF</span>](http://docs.graylog.org/en/2.4/pages/gelf.html)) is a log format.
 - Structured
 - Chunking
 - Compression (GZIP/GLIB)

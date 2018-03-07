@@ -218,18 +218,18 @@ public class HelloController {
 
 @title[Search]
 #### <span class="gold">Search</span> [query syntax](http://docs.graylog.org/en/2.4/pages/queries.html)
--- ssh
--- ssh login
--- "ssh login"
--- type:ssh
--- type:"ssh login"
--- type:(ssh login)
--- (ssh OR login) AND NOT source:example.org
--- source:*.org
--- source:exam?le.org
--- http_response_code:[0 TO 64}
--- http_response_code:>=400
--- http_response_code:(>=400 AND <500)
+- ssh
+- ssh login
+- "ssh login"
+- type:ssh
+- type:"ssh login"
+- type:(ssh login)
+- (ssh OR login) AND NOT source:example.org
+- source:*.org
+- source:exam?le.org
+- http_response_code:[0 TO 64}
+- http_response_code:>=400
+- http_response_code:(>=400 AND <500)
 
 +++ 
 

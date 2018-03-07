@@ -91,7 +91,7 @@
 
 +++
 
-<p><span class="menu-title slide-title">log4j2-spring.xml</span></p>
+<p><span class="menu-title slide-title">pom.xml</span></p>
 ```xml
     <dependencies>
         <dependency>
@@ -124,7 +124,7 @@
     </dependencies>
 ```
 
-@[17-20](Maven dependency)
+@[16-19](Maven dependency)
 
 +++
 
@@ -182,7 +182,7 @@ public class HelloController {
 ---
 
 @title[Inputs]
-##### <span class="gold">Inputs</span>
+#### <span class="gold">Inputs</span>
 ![Image-Absolute](assets/images/inputs.png)
 <span class="aside">Define the input endpoints</span>
 
@@ -194,7 +194,7 @@ public class HelloController {
 ---
 
 @title[Stream]
-## <span class="gold">Streams</span>
+#### <span class="gold">Streams</span>
 ![Image-Absolute](assets/images/streams.png)
 <span class="aside">Define the input endpoints</span>
 

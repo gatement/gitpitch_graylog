@@ -52,16 +52,20 @@
 
 @title[Data Ingesting]
 #### Data Ingesting
-- Format: Raw/Plaintext, Syslog, CEF, GELF, ...
-- Channel: TCP, UDP, Kafka, AMQP, ...
+- Formats: Raw/Plaintext, Syslog, CEF, GELF, ...
+- Transport methods: TCP, UDP, Kafka, AMQP, ...
 
 +++
 
-#### Graylog Extended Log Format ([<span class="gold">GELF</span>](http://docs.graylog.org/en/2.4/pages/gelf.html)) is a log format.
+#### [<span class="gold">GELF</span>](http://docs.graylog.org/en/2.4/pages/gelf.html) (<span class="gold">G</span>raylog <span class="gold">E</span>xtended <span class="gold">L</span>og <span class="gold">F</span>ormat) is a log format.
 - Structured
 - Chunking
 - Compression (GZIP/GLIB)
-<pre>
+
++++
+
+<p><span class="menu-title slide-title">GELF example</span></p>
+```javascript
 {
   "version": "1.1",
   "host": "example.org",
@@ -73,8 +77,12 @@
   "_some_info": "foo",
   "_some_env_var": "bar"
 }
-</pre>
+```javascript
 
++++
+
+#### <span class="gold">GELF</span> + <span class="gold">UDP</span>
+#### <span class="gold">UDP</span> is not reliable, but it is non-blocked.
 
 ---
 
